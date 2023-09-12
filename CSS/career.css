@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+/* Add a CSS Filter, drop shadow to the images in the career options page */
+#img1, #img2, #img3 {
+    filter: drop-shadow(8px 8px 10px gray);
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* Text shadow for captions in carousel */
+#dota, #b99, #modfam, #office, #community {
+    text-shadow: 3px 3px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* Background Image for start page in index before going to about me */
+#start {
+    background-image: url("../Graphics/index_bgimg.png");
+    padding: 320px 0px;
+}
+
+/* Add border to add cursor to look like when typing */
+#text {
+    border-right: solid white 4px;
+}

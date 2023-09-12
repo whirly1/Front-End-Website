@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Javascripts   Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <title>Feedback</title>
+    <!-- add css files -->
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/website_layout.css">
+    <link rel="stylesheet" href="../CSS/feedback.css">
+</head>
+
+<body>
+    <!-- navigation with bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="nav">
+        <div class="container-fluid">
+            <!-- navbar logo -->
+            <div class="navbar-brand mb-3 ms-5" id="brand">WH</div>
+            <!-- if small then collapse navbar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="navbar-nav ms-auto fs-4">
+                    <a class="nav-item nav-link" href="index.html">About Me</a>
+                    <a class="nav-item nav-link" href="sp.html">Life in SP</a>
+                    <a class="nav-item nav-link" href="career.html">Career Options</a>
+                    <a class="nav-item nav-link" href="feedback.html">Feedback</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- title of page -->
+    <div class="container display-1 mt-5 mb-5 fw-bold">
+        <p class="text-center">Feedback</p>
+    </div>
+    <!-- short desciption saying thank you -->
+    <div class="text-center fs-4 fw-bold">Thank you for coming to my website! Please fill in this form to give me feedback to
+        further
+        improve my website.</div>
+    <!-- container with form -->
+    <div class="container mt-5 fs-4 fw-bold">
+        <form>
+            <!-- name (required) -->
+            <div class="form-group mb-3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control mt-1" id="name" placeholder="full name" required>
+            </div>
+            <!-- email address (required) -->
+            <div class="form-group mb-3">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control mt-1" id="email" placeholder="name@example.com" required>
+            </div>
+            <!-- date visit in date type -->
+            <div class="form-group mb-3">
+                <label for="visit">Date of Visit</label>
+                <input class="form-control mt-1" id="visit" type="date">
+            </div>
+            <!-- options for selection for favourite webpage out of website (required) -->
+            <div class="form-group mb-3">
+                <label for="favPage">What was your favourite webpage?</label>
+                <select class="form-control mt-1" id="favPage" required>
+                    <option value="">About Me</option>
+                    <option value="">Life in SP</option>
+                    <option value="">Career Options</option>
+                </select>
+            </div>
+            <!-- yes/no radio input for if website was appealing -->
+            <div class="form-group mb-1">
+                <label>Was the website generally appealing?</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label mt-1" for="inlineRadio1">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label mt-1" for="inlineRadio2">No</label>
+            </div>
+            <!-- text area for additional feedback -->
+            <div class="form-group mt-3 mb-3">
+                <label for="commBox">Additional Feedback</label>
+                <textarea class="form-control mt-1" id="commBox" rows="3"></textarea>
+            </div>
+            <div class="form-group mb-3">
+                <label for="range" class="form-label">Rate the website</label>
+                <input type="range" class="form-range" id="range">
+            </div>
+            <!-- checkbox to add to mailing list -->
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="mailList">
+                <label class="form-check-label mt-2" for="mailList">Add me to your mailing list for updates on my
+                    website!</label>
+            </div>
+            <!-- buttons to submit and cancel -->
+            <div class="form-check text-center mt-3 mb-3">
+                <button type="submit" class="btn btn-secondary btn-lg">Submit My Feedback</button>
+                <button type="reset" class="btn btn-secondary btn-lg">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <!-- footer -->
+    <div class="text-center text-white pt-3 pb-3 fs-5" id="footer">
+        <p>Ng Wee Herng | Student of Singapore Polytechnic | School of Computing | Diploma in Applied AI and Analytics</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+About Me Page
+1. Background Image: https://www.addictivetips.com/app/uploads/2020/04/HmgQJDl.jpg 
+2. Photo of me, taken from my phone
+3. Photo of Interests
+    Dota 2: https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/battle_mobile.jpg
+    Brooklyn Nine Nine: https://wallpaperaccess.com/full/1455757.jpg
+    Modern Family: https://images5.alphacoders.com/872/872688.jpg
+    The Office: https://www.denofgeek.com/wp-content/uploads/2020/03/the-office-nbc.png?fit=1250%2C704
+    Community: https://images6.alphacoders.com/807/thumb-1920-807806.jpg
+
+Life in SP Page
+1. Current Experience
+    JavaScript: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png
+    HTML: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png
+    CSS: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png
+    Food Court 4: https://www.sp.edu.sg/images/default-source/content-migration/content-migration/foodcourt4-jpg.jpg
+    Food Court 5: https://www.sp.edu.sg/images/default-source/content-migration/content-migration/fc5-jpg.jpg
+    Robot is my own picture taken from my phone
+    Rock Paper Scissors Icons: https://www.rockpaperscissor.shop/uploads/b/e21ba03441345a2bd5b1478cc70cc22358cffb927dcfd658c746f3f748fd0462/2021-10-06_12-37-27_1633549055.png
+2. Courses in SoC
+    DCITP: https://www.sp.edu.sg/images/default-source/dmit/thumbnail-dcitp.jpg?sfvrsn=ca7ec3d6_5
+    DAAA: https://www.sp.edu.sg/images/default-source/default-album/thumbnail-daaa.jpg?sfvrsn=2cff8b8e_0
+    DISM: https://www.sp.edu.sg/images/default-source/default-album/thumbnail-dism.jpg?sfvrsn=8d3513fe_0
+    DIT: https://www.sp.edu.sg/images/default-source/default-album/thumbnail-dit.jpg?sfvrsn=dc9b4f9e_0
+    Content taken from the SP website as well
+
+Career Options
+1. AI Developer: 
+    Image: https://www.clariontech.com/hubfs/Blog-4.png (cropped)
+    Content: https://www.lewagon.com/tech-jobs/data-science/ai-developer
+    Salary: http://www.salaryexplorer.com/salary-survey.php?loc=196&loctype=1&job=12098&jobtype=3
+2. Data Analyst: 
+    Image: https://hackr.io/blog/become-data-analyst-with-no-experience/thumbnail/large (cropped)
+    Content: https://illinois.touro.edu/news/what-does-a-data-analyst-do-ultimate-guide.php
+    Salary: https://sg.talent.com/salary?job=data+analyst
+3. Data Scientist: 
+    Image: https://online.jcu.edu.au/sites/default/files/field/image/JCU_IG_-header.png
+    Content: https://www.sas.com/en_sg/insights/analytics/what-is-a-data-scientist.html
+    Salary: https://sg.talent.com/salary?job=Data+Scientist
+
+Feedback
+Background Image: https://www.vectorstock.com/royalty-free-vector/colorful-speech-bubbles-background-vector-947010

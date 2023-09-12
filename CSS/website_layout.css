@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*add font*/
+@font-face {
+    font-family: Blanka;
+    src: url(Blanka-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(Exo-VariableFont_wght.ttf) format('ttf');
+}
+
+
+/* HTML and Body Styles (Make all of them that particular font)*/
+html {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+    font-family: Exo;
+}
+
+nav {
+    font-family: Exo;
+}
+
+div {
+    font-family: Exo;
+}
+
+/* Font and size styles for navigation bar brand */
+#brand {
+    font-family: Blanka; 
+    font-size: 3rem;
+}
+
+/* Linear gradient for navigation and footer */
+#nav {
+    background-image: linear-gradient(to right, #b468e0, #706aec);
+}
+
+#footer {
+    background-image: linear-gradient(to right, #b468e0, #706aec);
+}
+
+/* Make list position inside */
+#list {
+    list-style-position: inside;
+}

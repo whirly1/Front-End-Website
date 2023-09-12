@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* Border for different experiences in sp */
+#study, #cca {
+    border: 2px solid #706aec; border-radius: 25px;
+}
+
+#food {
+    border: 2px solid #706aec; border-radius: 25px; margin: 0px 10px;
+}

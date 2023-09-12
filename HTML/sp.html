@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Javascripts   Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <title>Life in SP</title>
+    <!-- add css and js files -->
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/website_layout.css">
+    <link rel="stylesheet" href="../CSS/sp.css">
+    <script src="../JavaScript/sp_timer.js" defer></script>
+    <script src="../JavaScript/game.js" defer></script>
+</head>
+
+<body>
+    <!-- navigation with bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="nav">
+        <div class="container-fluid">
+            <!-- navbar logo -->
+            <div class="navbar-brand mb-3 ms-5" id="brand">WH</div>
+            <!-- if small then collapse navbar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="navbar-nav ms-auto fs-4">
+                    <a class="nav-item nav-link" href="index.html">About Me</a>
+                    <a class="nav-item nav-link" href="sp.html">Life in SP</a>
+                    <a class="nav-item nav-link" href="career.html">Career Options</a>
+                    <a class="nav-item nav-link" href="feedback.html">Feedback</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- title of page -->
+    <div class="container display-1 mt-5 mb-5">
+        <p class="text-center">Life in SP</p>
+    </div>
+    <!-- divs with id to display timer with javascript -->
+    <div id="today" class="display-4 text-center mt-5"></div>
+    <div class="display-4 text-center mt-3">It has been</div>
+    <div id="timer" class="display-1 container">
+        <div class="row justify-content-center mt-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div id="days"></div>
+                <p class="display-6">Days</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div id="hours"></div>
+                <p class="display-6">Hours</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div id="mins"></div>
+                <p class="display-6">Minutes</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div id="secs"></div>
+                <p class="display-6">Seconds</p>
+            </div>
+        </div>
+    </div>
+    <div class="display-4 text-center mt-1 mb-5">since I came to SP</div>
+    <!-- three column layout that is web responsive -->
+    <!-- part about my life in SP, split into 3 aspects(study food cca) -->
+    <div class="container-fluid">
+        <div class="row fs-6 lh-sm d-flex justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-12 text-center p-2 mt-4" id="study">
+                <div class="h2">Studies</div>
+                <p>I am enrolled in the Diploma for Applied AI and Analytics, also known
+                    as DAAA. I decided to join this course because I have an interest in
+                    technology. Right now, I am taking 7 modules, and some of my favourite
+                    modules are Fundamentals of Programming and Front-End Web Development.
+                    In these modules, I learn how to code using JavaScript, HTML and CSS.
+                    I am currently not drowned in my work and enjoying studying at Singapore
+                    Polytechnic.
+                </p>
+                <!-- figure box and figure caption -->
+                <figure>
+                    <img src="../Graphics/sp_study.png" alt="study" class="img-fluid mt-4">
+                    <figcaption>Logo of HTML, CSS and JS</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-3 text-center p-2 mt-4" id="food">
+                <div class="h2">Food</div>
+                <p>There are 6 food courts at SP, and every week I usually go to Food Court
+                    4 and 5. Food Court 4 is Koufu, where there are many varieties of food. My
+                    favourite food to eat is the Spicy Chicken Set from the Korean Food Stall.
+                    However, Koufu is very crowded most of the time and on Thursdays, as I have a
+                    longer lunch break, I go to Food Court 5, which is further from my classrooms.
+                    I mainly eat Subway and Brunch Cafe, which sell Japanese rice bowls.
+                </p>
+                <!-- figure box and figure caption -->
+                <figure>
+                    <img src="../Graphics/sp_food.png" alt="study" class="img-fluid mt-4">
+                    <figcaption>Pictures of Food Court 4 and 5</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-3 text-center p-2 mt-4" id="cca">
+                <div class="h2">CCA</div>
+                <p>For my CCA, I already knew what I was joining before I came to SP. I joined SPRITE,
+                    which is the Singapore Polytechnic Robotics Innovation Technology Enterprise. I joined
+                    because I had prior experience in secondary school. In SPRITE, I use LEGO to build robots
+                    to complete a specific task, and then competing against other schools. Winning the local
+                    competition can allow me to represent Singapore on the international stage, which I have
+                    done previously and would love to do again.
+                </p>
+                <!-- figure box and figure caption -->
+                <figure>
+                    <img src="../Graphics/sp_cca.jpg" alt="study" class="img-fluid mt-2">
+                    <figcaption>Picture of the robot I built in 2020</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- interactive part (rock paper scissors) made with javascript -->
+    <div class="container-fluid mt-5 text-center">
+        <div class="row">
+            <div class="col-lg-12 display-4">Rock Paper Scissors</div>
+            <div class="col-lg-12 fs-5">a game that I added into my Fundamentals of Programming project</div>
+            <div class="col-lg-4 col-sm-12 mt-5">
+                <p class="fs-3">Your Choice</p>
+                <div id="mychoice" class="mt-3 display-4 my-auto"></div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-5">
+                <p class="fs-3">Computer's Choice</p>
+                <div id="compchoice" class="mt-3 display-4 my-auto"></div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-5">
+                <p class="fs-3 mb-5">Result</p>
+                <div id="result" class="display-4"></div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <button class="btn btn-lg btn-dark" id="Rock">Rock</button>
+                <button class="btn btn-lg btn-dark" id="Paper">Paper</button>
+                <button class="btn btn-lg btn-dark" id="Scissors">Scissors</button>
+            </div>
+        </div>
+    </div>
+    <!-- part on courses offered in soc -->
+    <div class="container lh-sm mb-2">
+        <div class="h1 text-center fw-bold mt-5">Courses Offered in School of Computing</div>
+        <!-- dcitp part -->
+        <div class="row mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 my-auto">
+                <img src="../Graphics/sp_dcitp.jpg" alt="dcitp" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-9 col-md-6 col-sm-12">
+                <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/common-ict-programme">
+                    <div class="h4 fw-bold mb-1">Common ICT Programme</div>
+                </a>
+                <p>The Common ICT Programme (DICTP) is a one semester programme to help you decide
+                    which IT course to take. </p>
+                <p class="mt-2">This programme offers fundamental IT modules to let you
+                    find out what interests you. It includes common foundational modules and exposure to
+                    various areas of IT through Infocomm Professional Seminars. After this semester, you can
+                    then choose to join the courses mentioned below. </p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!-- daaa part -->
+            <!-- order is so that all soc course images are before its descriptions when on a small screen -->
+            <div class="col-lg-9 col-md-6 col-sm-12 order-2 order-sm-1">
+                <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/applied-AI-and-analytics">
+                    <div class="h4 fw-bold mb-1">Diploma in Applied AI and Analytics</div>
+                </a>
+                <p>If you are interested to develop the next Artificial Intelligence (AI) application that
+                    benefits our world, this course is for you! </p>
+                <p class="mt-2">AI & data analytics are the key under-pinning technologies for transforming every
+                    industry,
+                    including manufacturing, healthcare, and more. You get to face new challenges and projects closely
+                    related to solving real-world problems using AI. To facilitate better learning, this course has
+                    specially designed AI computer labs which provide students with high performing computers. </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 my-auto order-1 order-sm-2">
+                <img src="../Graphics/sp_daaa.jpg" alt="daaa" class="img-fluid rounded">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!-- dism part -->
+            <div class="col-lg-3 col-md-6 col-sm-12 my-auto">
+                <img src="../Graphics/sp_dism.jpg" alt="dism" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-9 col-md-6 col-sm-12">
+                <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/infocomm-security-management">
+                    <div class="h4 fw-bold mb-1">Diploma in Infocomm Security Management</div>
+                </a>
+                <p>Being a Diploma in Infocomm Security Management (DISM) student gives you the competitive
+                    edge for a boost in your future studies and career.</p>
+                <p class="mt-2">To prepare you for both further studies and working life, the DISM curriculum covers the
+                    important areas of security technology, security management, information technology, law and
+                    teamwork
+                    and communications. There is also a Cyber Wargame Center, where realistic scenarios are created to
+                    prepare you for real cyberthreats! </p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!-- dit part -->
+            <!-- order is so that all soc course images are before its descriptions when on a small screen -->
+            <div class="col-lg-9 col-md-6 col-sm-12 order-2 order-sm-1">
+                <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/information-technology">
+                    <div class="h4 fw-bold mb-1">Diploma in Information Technology</div>
+                </a>
+                <p>Information Technology (IT) is the driving force behind many digital transformations we
+                    see
+                    and use today, including the Smart Nation vision.</p>
+                <p class="mt-2">The Diploma in Information Technology (DIT) course is positioned to focus on Software &
+                    Applications development with three specialist tracks:</p>
+                <!-- list -->
+                <ul class="list-group" id="list">
+                    <li>Software Development</li>
+                    <li>User Experience</li>
+                    <li>Immersive Simulation</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 my-auto order-1 order-sm-2">
+                <img src="../Graphics/sp_dit.jpg" alt="dit" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="text-center text-white pt-3 pb-3 fs-5" id="footer">
+        <p>Ng Wee Herng | Student of Singapore Polytechnic | School of Computing | Diploma in Applied AI and Analytics
+        </p>
+    </div>
+
+</body>
+
+</html>

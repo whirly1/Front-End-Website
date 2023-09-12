@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+/* adding a background image to the feedback page */
+body {
+    background-image: url("../Graphics/feedback_background_img.png");
+}
